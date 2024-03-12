@@ -67,23 +67,19 @@ const Header = (props) => {
                   <span>Home</span>
                   <br></br>
                 </span>
-                <Link href="/portfolio">
-                  <a className="header-link07">{props.text14}</a>
+                <span className="header-text07">{props.text14}</span>
+                <Link href="/book">
+                  <a className="header-link07">{props.text15}</a>
                 </Link>
-                <Link href="/services">
-                  <a className="header-link08">{props.text15}</a>
-                </Link>
-                <span className="header-text07">{props.text21}</span>
-                <Link href="/testimonials">
-                  <a className="header-link09">{props.text31}</a>
-                </Link>
-                <span className="header-text08">{props.text41}</span>
+                <span className="header-text08">{props.text21}</span>
+                <span className="header-text09">{props.text31}</span>
+                <span className="header-text10">{props.text41}</span>
                 <Link href="/newsletter">
-                  <a className="header-link10">{props.text51}</a>
+                  <a className="header-link08">{props.text51}</a>
                 </Link>
-                <span className="header-text09">{props.text61}</span>
+                <span className="header-text11">{props.text61}</span>
                 <Link href="/contact">
-                  <a className="header-link11">{props.text71}</a>
+                  <a className="header-link09">{props.text71}</a>
                 </Link>
               </nav>
             </div>
@@ -229,35 +225,35 @@ const Header = (props) => {
           .header-text04 {
             text-decoration: none;
           }
+          .header-text07 {
+            margin-left: 0px;
+            text-decoration: none;
+          }
           .header-link07 {
             margin-left: 0px;
+            text-decoration: none;
+          }
+          .header-text08 {
+            margin-left: 0px;
+            text-decoration: none;
+          }
+          .header-text09 {
+            margin-left: 0nits;
+            text-decoration: none;
+          }
+          .header-text10 {
+            margin-left: 0nits;
             text-decoration: none;
           }
           .header-link08 {
             margin-left: 0px;
             text-decoration: none;
           }
-          .header-text07 {
+          .header-text11 {
             margin-left: 0px;
             text-decoration: none;
           }
           .header-link09 {
-            margin-left: 0nits;
-            text-decoration: none;
-          }
-          .header-text08 {
-            margin-left: 0nits;
-            text-decoration: none;
-          }
-          .header-link10 {
-            margin-left: 0px;
-            text-decoration: none;
-          }
-          .header-text09 {
-            margin-left: 0px;
-            text-decoration: none;
-          }
-          .header-link11 {
             margin-left: 0px;
             text-decoration: none;
           }
@@ -334,28 +330,28 @@ const Header = (props) => {
               flex-wrap: wrap;
               flex-direction: column;
             }
-            .header-link07 {
-              margin-left: 0px;
-            }
-            .header-link08 {
-              margin-left: 0px;
-            }
             .header-text07 {
               margin-left: 0px;
             }
-            .header-link09 {
+            .header-link07 {
               margin-left: 0px;
             }
             .header-text08 {
               margin-left: 0px;
             }
-            .header-link10 {
-              margin-left: 0px;
-            }
             .header-text09 {
               margin-left: 0px;
             }
-            .header-link11 {
+            .header-text10 {
+              margin-left: 0px;
+            }
+            .header-link08 {
+              margin-left: 0px;
+            }
+            .header-text11 {
+              margin-left: 0px;
+            }
+            .header-link09 {
               margin-left: 0px;
             }
           }

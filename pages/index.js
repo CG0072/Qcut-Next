@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
 
 import Header from '../components/header'
@@ -22,20 +23,106 @@ const Home = (props) => {
           <div className="home-container01">
             <img alt="image" src="/logoqcut-200h.png" className="home-image" />
             <h1 className="home-text">QCut</h1>
-            <span className="home-text01">Video Editing Services and More</span>
+            <span className="home-text01">Video Editing Agency</span>
+            <Link href="/book">
+              <a className="home-link button">
+                <span className="home-text02">Book a Call</span>
+              </a>
+            </Link>
+          </div>
+        </section>
+        <section id="services" className="home-services">
+          <div className="home-container02">
+            <h1 className="home-text03">Our Service</h1>
+            <div className="home-container03">
+              <div className="home-container04">
+                <div className="home-div">
+                  <lottie-player
+                    src="https://presentation-website-assets.teleporthq.io/features/lottie.json"
+                    speed="1"
+                    autoplay="true"
+                    background="transparent"
+                  ></lottie-player>
+                </div>
+                <div className="home-separator"></div>
+                <span className="home-text04">
+                  <span>
+                    Short From
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <br></br>
+                  <span>Video editing</span>
+                </span>
+              </div>
+              <div className="home-container05">
+                <div className="home-div1">
+                  <lottie-player
+                    src="https://presentation-website-assets.teleporthq.io/features/lottie.json"
+                    speed="1"
+                    autoplay="true"
+                    background="transparent"
+                  ></lottie-player>
+                </div>
+                <div className="home-separator1"></div>
+                <span className="home-text08">
+                  <span>Custm</span>
+                  <br></br>
+                  <span>Style</span>
+                  <br></br>
+                </span>
+              </div>
+              <div className="home-container06">
+                <div className="home-div2">
+                  <lottie-player
+                    src="https://presentation-website-assets.teleporthq.io/features/lottie.json"
+                    speed="1"
+                    autoplay="true"
+                    background="transparent"
+                  ></lottie-player>
+                </div>
+                <div className="home-separator2"></div>
+                <span className="home-text13">
+                  <span>Fast Delivery</span>
+                  <br></br>
+                  <span>in 48h</span>
+                  <br></br>
+                </span>
+              </div>
+              <div className="home-container07">
+                <div className="home-div3">
+                  <lottie-player
+                    src="https://presentation-website-assets.teleporthq.io/features/lottie.json"
+                    speed="1"
+                    autoplay="true"
+                    background="transparent"
+                  ></lottie-player>
+                </div>
+                <div className="home-separator3"></div>
+                <span className="home-text18">
+                  <span>Custom Motion</span>
+                  <br></br>
+                  <span>Graphics &amp; Animations</span>
+                  <br></br>
+                </span>
+              </div>
+            </div>
           </div>
         </section>
         <section id="portfolio" className="home-portfolio">
-          <div className="home-container02">
-            <header className="home-container03">
-              <h1 className="home-text02">
-                <span>Portfolio</span>
+          <div className="home-container08">
+            <header className="home-container09">
+              <h1 className="home-text23">
+                <span>Examples</span>
                 <br></br>
               </h1>
             </header>
-            <div className="home-container04">
+            <div className="home-video-row-1">
               <video
-                src="https://cdn.discordapp.com/attachments/1063813912300114011/1216775290081116322/Reelvideo-g489.mp4?ex=66019d4b&amp;is=65ef284b&amp;hm=ffbaa0f2c80d400b80df5a15ae12a39f4a1c927ef5896a400c16d315b638cf6a&amp;"
+                src="https://cdn.discordapp.com/attachments/1063813912300114011/1217080760297590834/example_6.mp4?ex=6602b9c9&amp;is=65f044c9&amp;hm=9343716ea960af11f4d041de4a6f6f32583a5b8c5640b7f90ee5257c0475e183&amp;"
                 loop="true"
                 poster="/reels/screenshot%202024-03-11%20at%2017.40.47-400h.png"
                 controls="true"
@@ -67,7 +154,7 @@ const Home = (props) => {
                 className="home-video3"
               ></video>
             </div>
-            <div className="home-container05">
+            <div className="home-container10">
               <video
                 src="https://cdn.discordapp.com/attachments/1063813912300114011/1216775290081116322/Reelvideo-g489.mp4?ex=66019d4b&amp;is=65ef284b&amp;hm=ffbaa0f2c80d400b80df5a15ae12a39f4a1c927ef5896a400c16d315b638cf6a&amp;"
                 loop="true"
@@ -103,78 +190,20 @@ const Home = (props) => {
             </div>
           </div>
         </section>
-        <section id="services" className="home-services">
-          <div className="home-container06">
-            <h1 className="home-text05">
-              <span>Our Services</span>
-              <br></br>
-            </h1>
-            <div className="home-container07">
-              <div className="home-container08">
-                <div className="home-div">
-                  <lottie-player
-                    src="https://presentation-website-assets.teleporthq.io/features/lottie.json"
-                    speed="1"
-                    autoplay="true"
-                    background="transparent"
-                  ></lottie-player>
-                </div>
-                <div className="home-separator"></div>
-                <span className="home-text08">Lorem ipsum dolor.</span>
-              </div>
-              <div className="home-container09">
-                <div className="home-div1">
-                  <lottie-player
-                    src="https://presentation-website-assets.teleporthq.io/features/lottie.json"
-                    speed="1"
-                    autoplay="true"
-                    background="transparent"
-                  ></lottie-player>
-                </div>
-                <div className="home-separator1"></div>
-                <span className="home-text09">Lorem ipsum dolor.</span>
-              </div>
-              <div className="home-container10">
-                <div className="home-div2">
-                  <lottie-player
-                    src="https://presentation-website-assets.teleporthq.io/features/lottie.json"
-                    speed="1"
-                    autoplay="true"
-                    background="transparent"
-                  ></lottie-player>
-                </div>
-                <div className="home-separator2"></div>
-                <span className="home-text10">Lorem ipsum dolor.</span>
-              </div>
-              <div className="home-container11">
-                <div className="home-div3">
-                  <lottie-player
-                    src="https://presentation-website-assets.teleporthq.io/features/lottie.json"
-                    speed="1"
-                    autoplay="true"
-                    background="transparent"
-                  ></lottie-player>
-                </div>
-                <div className="home-separator3"></div>
-                <span className="home-text11">Lorem ipsum dolor.</span>
-              </div>
-            </div>
-          </div>
-        </section>
         <section id="testimonials" className="home-testimonials">
-          <div className="home-container12">
-            <h1 className="home-text12">
+          <div className="home-container11">
+            <h1 className="home-text26">
               <span>What they’re saying</span>
               <br></br>
             </h1>
-            <span className="home-text15">
+            <span className="home-text29">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
                 volutpat turpis. Mauris luctus rutrum mi ut rhoncus. Integer in
                 dignissim tortor.
               </span>
             </span>
-            <div className="home-container13">
+            <div className="home-container12">
               <TestimonialCard1
                 pictureSrc="https://images.unsplash.com/photo-1557053910-d9eadeed1c58?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHdvbWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNjI2NDUxOTgy&amp;ixlib=rb-1.2.1&amp;h=1200"
                 rootClassName="rootClassName6"
@@ -188,7 +217,7 @@ const Home = (props) => {
           </div>
         </section>
         <section id="newsletter" className="home-newsletter">
-          <h1 className="home-text17">
+          <h1 className="home-text31">
             <span>Newsletter</span>
             <br></br>
           </h1>
@@ -223,6 +252,7 @@ const Home = (props) => {
           .home-container01 {
             flex: 0 0 auto;
             display: flex;
+            position: relative;
             align-items: flex-start;
             flex-direction: column;
           }
@@ -245,8 +275,220 @@ const Home = (props) => {
           .home-text01 {
             color: var(--dl-color-primary-neutralwhite);
             font-size: 25px;
+            align-self: center;
+          }
+          .home-link {
+            color: var(--dl-color-primary-neutralwhite);
+            width: 600px;
+            height: 80px;
+            margin: var(--dl-space-space-oneandhalfunits);
+            display: flex;
+            align-self: center;
+            align-items: center;
+            border-radius: 30px;
+            flex-direction: row;
+            justify-content: center;
+            text-decoration: none;
+            background-color: var(--dl-color-primary-qcut);
+          }
+          .home-text02 {
+            height: 50px;
+            font-size: 50px;
             font-style: normal;
-            font-weight: 500;
+            font-weight: 700;
+          }
+          .home-services {
+            gap: var(--dl-space-space-threeunits);
+            flex: 0 0 auto;
+            width: auto;
+            display: flex;
+            align-self: center;
+            margin-top: 0px;
+            align-items: center;
+            padding-top: 0px;
+            padding-left: var(--dl-space-space-threeunits);
+            border-radius: 25px;
+            margin-bottom: var(--dl-space-space-threeunits);
+            padding-right: var(--dl-space-space-threeunits);
+            padding-bottom: var(--dl-space-space-threeunits);
+            justify-content: center;
+            background-color: var(--dl-color-primary-sccent);
+          }
+          .home-container02 {
+            flex: 0 0 auto;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .home-text03 {
+            color: var(--dl-color-primary-neutralwhite);
+            margin: var(--dl-space-space-threeunits);
+            font-size: 50px;
+          }
+          .home-container03 {
+            gap: var(--dl-space-space-threeunits);
+            flex: 0 0 auto;
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+          }
+          .home-container04 {
+            gap: var(--dl-space-space-unit);
+            flex: 0 0 auto;
+            display: flex;
+            padding: var(--dl-space-space-unit);
+            align-items: center;
+            border-radius: 30px;
+            flex-direction: column;
+            justify-content: center;
+            background-color: var(--dl-color-custom-accent1);
+          }
+          .home-div {
+            width: 300px;
+            height: 300px;
+          }
+          .home-separator {
+            flex: 0 0 auto;
+            width: 100%;
+            height: 0px;
+            display: flex;
+            margin-top: var(--dl-space-space-halfunit);
+            align-items: flex-start;
+            margin-left: 0px;
+            border-color: var(--dl-color-gray-900);
+            border-style: solid;
+            border-width: 1px;
+            margin-right: 0px;
+            margin-bottom: var(--dl-space-space-halfunit);
+            flex-direction: row;
+            border-top-width: 0px;
+            border-left-width: 0px;
+            border-right-width: 0px;
+          }
+          .home-text04 {
+            color: var(--dl-color-primary-neutralwhite);
+            font-size: 25px;
+            text-align: center;
+          }
+          .home-container05 {
+            gap: var(--dl-space-space-unit);
+            flex: 0 0 auto;
+            display: flex;
+            padding: var(--dl-space-space-unit);
+            align-items: center;
+            border-radius: 30px;
+            flex-direction: column;
+            justify-content: center;
+            background-color: var(--dl-color-custom-accent1);
+          }
+          .home-div1 {
+            width: 300px;
+            height: 300px;
+          }
+          .home-separator1 {
+            flex: 0 0 auto;
+            width: 100%;
+            height: 0px;
+            display: flex;
+            margin-top: var(--dl-space-space-halfunit);
+            align-items: flex-start;
+            margin-left: 0px;
+            border-color: var(--dl-color-gray-900);
+            border-style: solid;
+            border-width: 1px;
+            margin-right: 0px;
+            margin-bottom: var(--dl-space-space-halfunit);
+            flex-direction: row;
+            border-top-width: 0px;
+            border-left-width: 0px;
+            border-right-width: 0px;
+          }
+          .home-text08 {
+            color: var(--dl-color-primary-neutralwhite);
+            font-size: 25px;
+            text-align: center;
+          }
+          .home-container06 {
+            gap: var(--dl-space-space-unit);
+            flex: 0 0 auto;
+            display: flex;
+            padding: var(--dl-space-space-unit);
+            align-items: center;
+            border-radius: 30px;
+            flex-direction: column;
+            justify-content: center;
+            background-color: var(--dl-color-custom-accent1);
+          }
+          .home-div2 {
+            width: 300px;
+            height: 300px;
+          }
+          .home-separator2 {
+            flex: 0 0 auto;
+            width: 100%;
+            height: 0px;
+            display: flex;
+            margin-top: var(--dl-space-space-halfunit);
+            align-items: flex-start;
+            margin-left: 0px;
+            border-color: var(--dl-color-gray-900);
+            border-style: solid;
+            border-width: 1px;
+            margin-right: 0px;
+            margin-bottom: var(--dl-space-space-halfunit);
+            flex-direction: row;
+            border-top-width: 0px;
+            border-left-width: 0px;
+            border-right-width: 0px;
+          }
+          .home-text13 {
+            color: var(--dl-color-primary-neutralwhite);
+            font-size: 25px;
+            text-align: center;
+          }
+          .home-container07 {
+            gap: var(--dl-space-space-unit);
+            flex: 0 0 auto;
+            display: flex;
+            padding: var(--dl-space-space-unit);
+            align-items: center;
+            border-radius: 30px;
+            flex-direction: column;
+            justify-content: center;
+            background-color: var(--dl-color-custom-accent1);
+          }
+          .home-div3 {
+            width: 300px;
+            height: 300px;
+          }
+          .home-separator3 {
+            flex: 0 0 auto;
+            width: 100%;
+            height: 0px;
+            display: flex;
+            margin-top: var(--dl-space-space-halfunit);
+            align-items: flex-start;
+            margin-left: 0px;
+            border-color: var(--dl-color-gray-900);
+            border-style: solid;
+            border-width: 1px;
+            margin-right: 0px;
+            margin-bottom: var(--dl-space-space-halfunit);
+            flex-direction: row;
+            border-top-width: 0px;
+            border-left-width: 0px;
+            border-right-width: 0px;
+          }
+          .home-text18 {
+            color: var(--dl-color-primary-neutralwhite);
+            font-size: 25px;
+            text-align: center;
           }
           .home-portfolio {
             flex: 0 0 auto;
@@ -256,7 +498,7 @@ const Home = (props) => {
             align-items: center;
             justify-content: center;
           }
-          .home-container02 {
+          .home-container08 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -267,9 +509,8 @@ const Home = (props) => {
             margin-right: var(--dl-space-space-threeunits);
             flex-direction: column;
             justify-content: center;
-            background-color: var(--dl-color-primary-sccent);
           }
-          .home-container03 {
+          .home-container09 {
             flex: 0 0 auto;
             width: 100%;
             height: auto;
@@ -280,12 +521,12 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-twounits);
             justify-content: center;
           }
-          .home-text02 {
+          .home-text23 {
             color: var(--dl-color-primary-neutralwhite);
             margin: 0px;
             font-size: 50px;
           }
-          .home-container04 {
+          .home-video-row-1 {
             gap: var(--dl-space-space-threeunits);
             flex: 0 0 auto;
             width: 100%;
@@ -339,7 +580,7 @@ const Home = (props) => {
             padding-bottom: 0px;
           }
 
-          .home-container05 {
+          .home-container10 {
             gap: var(--dl-space-space-threeunits);
             flex: 0 0 auto;
             width: 100%;
@@ -395,192 +636,6 @@ const Home = (props) => {
             padding-bottom: 0px;
           }
 
-          .home-services {
-            gap: var(--dl-space-space-threeunits);
-            flex: 0 0 auto;
-            width: auto;
-            display: flex;
-            align-self: center;
-            margin-top: 0px;
-            align-items: center;
-            padding-left: var(--dl-space-space-twounits);
-            margin-bottom: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-twounits);
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: center;
-          }
-          .home-container06 {
-            flex: 0 0 auto;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .home-text05 {
-            color: var(--dl-color-primary-neutralwhite);
-            margin: var(--dl-space-space-twounits);
-            font-size: 50px;
-          }
-          .home-container07 {
-            gap: var(--dl-space-space-threeunits);
-            flex: 0 0 auto;
-            width: auto;
-            height: auto;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: center;
-          }
-          .home-container08 {
-            gap: var(--dl-space-space-unit);
-            flex: 0 0 auto;
-            display: flex;
-            padding: var(--dl-space-space-unit);
-            align-items: center;
-            border-radius: 30px;
-            flex-direction: column;
-            justify-content: center;
-            background-color: var(--dl-color-custom-accent1);
-          }
-          .home-div {
-            width: 300px;
-            height: 300px;
-          }
-          .home-separator {
-            flex: 0 0 auto;
-            width: 100%;
-            height: 0px;
-            display: flex;
-            margin-top: var(--dl-space-space-halfunit);
-            align-items: flex-start;
-            margin-left: 0px;
-            border-color: var(--dl-color-gray-900);
-            border-style: solid;
-            border-width: 1px;
-            margin-right: 0px;
-            margin-bottom: var(--dl-space-space-halfunit);
-            flex-direction: row;
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
-          }
-          .home-text08 {
-            color: var(--dl-color-primary-neutralwhite);
-            font-size: 25px;
-          }
-          .home-container09 {
-            gap: var(--dl-space-space-unit);
-            flex: 0 0 auto;
-            display: flex;
-            padding: var(--dl-space-space-unit);
-            align-items: center;
-            border-radius: 30px;
-            flex-direction: column;
-            justify-content: center;
-            background-color: var(--dl-color-custom-accent1);
-          }
-          .home-div1 {
-            width: 300px;
-            height: 300px;
-          }
-          .home-separator1 {
-            flex: 0 0 auto;
-            width: 100%;
-            height: 0px;
-            display: flex;
-            margin-top: var(--dl-space-space-halfunit);
-            align-items: flex-start;
-            margin-left: 0px;
-            border-color: var(--dl-color-gray-900);
-            border-style: solid;
-            border-width: 1px;
-            margin-right: 0px;
-            margin-bottom: var(--dl-space-space-halfunit);
-            flex-direction: row;
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
-          }
-          .home-text09 {
-            color: var(--dl-color-primary-neutralwhite);
-            font-size: 25px;
-          }
-          .home-container10 {
-            gap: var(--dl-space-space-unit);
-            flex: 0 0 auto;
-            display: flex;
-            padding: var(--dl-space-space-unit);
-            align-items: center;
-            border-radius: 30px;
-            flex-direction: column;
-            justify-content: center;
-            background-color: var(--dl-color-custom-accent1);
-          }
-          .home-div2 {
-            width: 300px;
-            height: 300px;
-          }
-          .home-separator2 {
-            flex: 0 0 auto;
-            width: 100%;
-            height: 0px;
-            display: flex;
-            margin-top: var(--dl-space-space-halfunit);
-            align-items: flex-start;
-            margin-left: 0px;
-            border-color: var(--dl-color-gray-900);
-            border-style: solid;
-            border-width: 1px;
-            margin-right: 0px;
-            margin-bottom: var(--dl-space-space-halfunit);
-            flex-direction: row;
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
-          }
-          .home-text10 {
-            color: var(--dl-color-primary-neutralwhite);
-            font-size: 25px;
-          }
-          .home-container11 {
-            gap: var(--dl-space-space-unit);
-            flex: 0 0 auto;
-            display: flex;
-            padding: var(--dl-space-space-unit);
-            align-items: center;
-            border-radius: 30px;
-            flex-direction: column;
-            justify-content: center;
-            background-color: var(--dl-color-custom-accent1);
-          }
-          .home-div3 {
-            width: 300px;
-            height: 300px;
-          }
-          .home-separator3 {
-            flex: 0 0 auto;
-            width: 100%;
-            height: 0px;
-            display: flex;
-            margin-top: var(--dl-space-space-halfunit);
-            align-items: flex-start;
-            margin-left: 0px;
-            border-color: var(--dl-color-gray-900);
-            border-style: solid;
-            border-width: 1px;
-            margin-right: 0px;
-            margin-bottom: var(--dl-space-space-halfunit);
-            flex-direction: row;
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
-          }
-          .home-text11 {
-            color: var(--dl-color-primary-neutralwhite);
-            font-size: 25px;
-          }
           .home-testimonials {
             flex: 0 0 auto;
             width: auto;
@@ -590,7 +645,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-primary-sccent);
           }
-          .home-container12 {
+          .home-container11 {
             width: 100%;
             display: flex;
             padding: var(--dl-space-space-threeunits);
@@ -599,12 +654,12 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text12 {
+          .home-text26 {
             color: var(--dl-color-primary-neutralwhite);
             margin: 0px;
             font-size: 50px;
           }
-          .home-text15 {
+          .home-text29 {
             color: var(--dl-color-gray-white);
             font-size: 0.75rem;
             max-width: 600px;
@@ -612,7 +667,7 @@ const Home = (props) => {
             text-align: center;
             margin-bottom: var(--dl-space-space-twounits);
           }
-          .home-container13 {
+          .home-container12 {
             width: 100%;
             display: grid;
             grid-gap: var(--dl-space-space-twounits);
@@ -626,7 +681,7 @@ const Home = (props) => {
             align-items: center;
             justify-content: center;
           }
-          .home-text17 {
+          .home-text31 {
             color: var(--dl-color-primary-neutralwhite);
             margin: var(--dl-space-space-twounits);
             font-size: 50px;
@@ -653,6 +708,9 @@ const Home = (props) => {
             }
           }
           @media (max-width: 991px) {
+            .home-container03 {
+              flex-direction: column;
+            }
             .home-video2 {
               display: none;
             }
@@ -665,13 +723,10 @@ const Home = (props) => {
             .home-video7 {
               display: none;
             }
-            .home-container07 {
-              flex-direction: column;
-            }
-            .home-text15 {
+            .home-text29 {
               text-align: center;
             }
-            .home-container13 {
+            .home-container12 {
               grid-template-columns: 1fr;
             }
           }
@@ -700,18 +755,12 @@ const Home = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-container12 {
+            .home-container11 {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
           }
           @media (max-width: 479px) {
-            .home-video1 {
-              display: none;
-            }
-            .home-video5 {
-              display: none;
-            }
             .home-separator {
               margin-top: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -728,7 +777,13 @@ const Home = (props) => {
               margin-top: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-container12 {
+            .home-video1 {
+              display: none;
+            }
+            .home-video5 {
+              display: none;
+            }
+            .home-container11 {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);

@@ -10,9 +10,9 @@ const Contact = (props) => {
     <>
       <div className="contact-container">
         <Head>
-          <title>Contact - Qcut</title>
+          <title>contact - Qcut</title>
           <meta name="description" content="Qcut, Video editor, cut" />
-          <meta property="og:title" content="Contact - Qcut" />
+          <meta property="og:title" content="contact - Qcut" />
           <meta property="og:description" content="Qcut, Video editor, cut" />
         </Head>
         <Header rootClassName="header-root-class-name1"></Header>
@@ -53,7 +53,6 @@ const Contact = (props) => {
             gap: var(--dl-space-space-unit);
             flex: 0 0 auto;
             width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
             height: 100%;
             display: flex;
             flex-wrap: wrap;
