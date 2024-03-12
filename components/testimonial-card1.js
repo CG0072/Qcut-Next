@@ -73,12 +73,6 @@ const TestimonialCard1 = (props) => {
             border-radius: var(--dl-radius-radius-round);
           }
 
-          .testimonial-card1-root-class-name7 {
-            display: none;
-          }
-          .testimonial-card1-root-class-name8 {
-            display: none;
-          }
           @media (max-width: 1600px) {
             .testimonial-card1-testimonial-card {
               background-color: var(--dl-color-custom-neutral-dark);
