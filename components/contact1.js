@@ -14,7 +14,7 @@ const Contact1 = (props) => {
           <form
             action="https://api.notionmonkey.io/form/maHNKGLm1D38fmp72Exze5"
             method="POST"
-            enctype="text/plain"
+            enctype="application/x-www-form-urlencoded"
             className="contact1-form"
           >
             <input
