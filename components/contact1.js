@@ -37,7 +37,6 @@ const Contact1 = (props) => {
             />
             <textarea
               name="review"
-              autoFocus="true"
               placeholder={props.textareaPlaceholder}
               className="contact1-textarea textarea"
             ></textarea>

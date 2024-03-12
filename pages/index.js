@@ -16,17 +16,16 @@ const Home = (props) => {
           <meta name="description" content="Qcut, Video editor, cut" />
           <meta property="og:title" content="Qcut" />
           <meta property="og:description" content="Qcut, Video editor, cut" />
-          <meta name="robots" content="noindex" />
         </Head>
         <Header rootClassName="header-root-class-name11"></Header>
-        <section className="home-start">
+        <section id="start" className="home-start">
           <div className="home-container01">
             <img alt="image" src="/logoqcut-200h.png" className="home-image" />
             <h1 className="home-text">QCut</h1>
             <span className="home-text01">Video Editing Services and More</span>
           </div>
         </section>
-        <section className="home-portfolio">
+        <section id="portfolio" className="home-portfolio">
           <div className="home-container02">
             <header className="home-container03">
               <h1 className="home-text02">
@@ -104,7 +103,7 @@ const Home = (props) => {
             </div>
           </div>
         </section>
-        <section className="home-services">
+        <section id="services" className="home-services">
           <div className="home-container06">
             <h1 className="home-text05">
               <span>Our Services</span>
@@ -162,7 +161,7 @@ const Home = (props) => {
             </div>
           </div>
         </section>
-        <section className="home-testimonials">
+        <section id="testimonials" className="home-testimonials">
           <div className="home-container12">
             <h1 className="home-text12">
               <span>What they’re saying</span>
@@ -188,13 +187,13 @@ const Home = (props) => {
             </div>
           </div>
         </section>
-        <section className="home-newsletter">
+        <section id="newsletter" className="home-newsletter">
           <h1 className="home-text17">
             <span>Newsletter</span>
             <br></br>
           </h1>
         </section>
-        <section className="home-contact">
+        <section id="contact" className="home-contact">
           <Contact1 rootClassName="contact1-root-class-name1"></Contact1>
         </section>
         <Footer rootClassName="footer-root-class-name11"></Footer>

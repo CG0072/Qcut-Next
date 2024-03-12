@@ -19,27 +19,25 @@ const Header = (props) => {
           </Link>
           <div data-thq="thq-navbar-nav" className="header-desktop-menu">
             <nav className="header-links">
-              <Link href="/">
-                <a className="header-link01">
-                  <span>Home</span>
-                  <br></br>
-                </a>
-              </Link>
-              <Link href="/portfolio">
-                <a className="header-link02">{props.text}</a>
-              </Link>
-              <Link href="/services">
-                <a className="header-link03">{props.text1}</a>
-              </Link>
-              <Link href="/testimonials">
-                <a className="header-link04">{props.text3}</a>
-              </Link>
-              <Link href="/newsletter">
-                <a className="header-link05">{props.text5}</a>
-              </Link>
-              <Link href="/contact">
-                <a className="header-link06">{props.text7}</a>
-              </Link>
+              <a href="#start" className="header-link01">
+                <span>Home</span>
+                <br></br>
+              </a>
+              <a href="#portfolio" className="header-link02">
+                {props.text}
+              </a>
+              <a href="#services" className="header-link03">
+                {props.text1}
+              </a>
+              <a href="#testimonials" className="header-link04">
+                {props.text3}
+              </a>
+              <a href="#newsletter" className="header-link05">
+                {props.text5}
+              </a>
+              <a href="#contact" className="header-link06">
+                {props.text7}
+              </a>
             </nav>
             <div className="header-buttons"></div>
           </div>
