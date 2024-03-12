@@ -23,24 +23,24 @@ const Header = (props) => {
                 href="https://qcut.cg0072.lu/#start"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="header-link01"
+                className="header-link1"
               >
                 <span>Home</span>
                 <br></br>
               </a>
-              <a href="#portfolio" className="header-link02">
+              <a href="#portfolio" className="header-link2">
                 {props.text}
               </a>
-              <a href="#services" className="header-link03">
+              <a href="#services" className="header-link3">
                 {props.text1}
               </a>
-              <a href="#testimonials" className="header-link04">
+              <a href="#testimonials" className="header-link4">
                 {props.text3}
               </a>
-              <a href="#newsletter" className="header-link05">
+              <a href="#newsletter" className="header-link5">
                 {props.text5}
               </a>
-              <a href="#contact" className="header-link06">
+              <a href="#contact" className="header-link6">
                 {props.text7}
               </a>
             </nav>
@@ -74,17 +74,15 @@ const Header = (props) => {
                 </span>
                 <span className="header-text07">{props.text14}</span>
                 <Link href="/book">
-                  <a className="header-link07">{props.text15}</a>
+                  <a className="header-link7">{props.text15}</a>
                 </Link>
                 <span className="header-text08">{props.text21}</span>
                 <span className="header-text09">{props.text31}</span>
                 <span className="header-text10">{props.text41}</span>
-                <Link href="/newsletter">
-                  <a className="header-link08">{props.text51}</a>
-                </Link>
-                <span className="header-text11">{props.text61}</span>
+                <span className="header-text11">{props.text51}</span>
+                <span className="header-text12">{props.text61}</span>
                 <Link href="/contact">
-                  <a className="header-link09">{props.text71}</a>
+                  <a className="header-link8">{props.text71}</a>
                 </Link>
               </nav>
             </div>
@@ -133,26 +131,26 @@ const Header = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .header-link01 {
+          .header-link1 {
             text-decoration: none;
           }
-          .header-link02 {
+          .header-link2 {
             margin-left: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .header-link03 {
+          .header-link3 {
             margin-left: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .header-link04 {
+          .header-link4 {
             margin-left: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .header-link05 {
+          .header-link5 {
             margin-left: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .header-link06 {
+          .header-link6 {
             margin-left: var(--dl-space-space-twounits);
             text-decoration: none;
           }
@@ -234,7 +232,7 @@ const Header = (props) => {
             margin-left: 0px;
             text-decoration: none;
           }
-          .header-link07 {
+          .header-link7 {
             margin-left: 0px;
             text-decoration: none;
           }
@@ -250,15 +248,15 @@ const Header = (props) => {
             margin-left: 0nits;
             text-decoration: none;
           }
-          .header-link08 {
-            margin-left: 0px;
-            text-decoration: none;
-          }
           .header-text11 {
             margin-left: 0px;
             text-decoration: none;
           }
-          .header-link09 {
+          .header-text12 {
+            margin-left: 0px;
+            text-decoration: none;
+          }
+          .header-link8 {
             margin-left: 0px;
             text-decoration: none;
           }
@@ -338,7 +336,7 @@ const Header = (props) => {
             .header-text07 {
               margin-left: 0px;
             }
-            .header-link07 {
+            .header-link7 {
               margin-left: 0px;
             }
             .header-text08 {
@@ -350,13 +348,13 @@ const Header = (props) => {
             .header-text10 {
               margin-left: 0px;
             }
-            .header-link08 {
-              margin-left: 0px;
-            }
             .header-text11 {
               margin-left: 0px;
             }
-            .header-link09 {
+            .header-text12 {
+              margin-left: 0px;
+            }
+            .header-link8 {
               margin-left: 0px;
             }
           }

@@ -39,10 +39,10 @@ const Home = (props) => {
                 <div className="home-div">
                   <lottie-player
                     src="https://storage.googleapis.com/playground-bucket-v2.teleporthq.io/793f1f5b-d647-482d-bbd4-166d52de47fb/67f6f847-de13-4578-8ead-4e3359cfc4d7"
+                    loop="true"
                     speed="1"
                     autoplay="true"
                     background="transparent"
-                    loop="true"
                   ></lottie-player>
                 </div>
                 <div className="home-separator"></div>
@@ -63,10 +63,10 @@ const Home = (props) => {
                 <div className="home-div1">
                   <lottie-player
                     src="https://storage.googleapis.com/playground-bucket-v2.teleporthq.io/793f1f5b-d647-482d-bbd4-166d52de47fb/4ab25f40-5747-43e2-ac5a-1088bc1ca140"
-                    speed="1"
-                    background="transparent"
                     loop="true"
+                    speed="1"
                     autoplay="true"
+                    background="transparent"
                   ></lottie-player>
                 </div>
                 <div className="home-separator1"></div>
@@ -81,10 +81,10 @@ const Home = (props) => {
                 <div className="home-div2">
                   <lottie-player
                     src="https://storage.googleapis.com/playground-bucket-v2.teleporthq.io/793f1f5b-d647-482d-bbd4-166d52de47fb/f35b2c09-9023-47fa-9ef5-21f555ee8b8c"
+                    loop="true"
                     speed="0.8"
                     autoplay="true"
                     background="transparent"
-                    loop="true"
                   ></lottie-player>
                 </div>
                 <div className="home-separator2"></div>
@@ -99,10 +99,10 @@ const Home = (props) => {
                 <div className="home-div3">
                   <lottie-player
                     src="https://storage.googleapis.com/playground-bucket-v2.teleporthq.io/793f1f5b-d647-482d-bbd4-166d52de47fb/6c492055-7b46-4bd4-abc9-96f25c17a07e"
+                    loop="true"
                     speed="1"
                     autoplay="true"
                     background="transparent"
-                    loop="true"
                   ></lottie-player>
                 </div>
                 <div className="home-separator3"></div>
@@ -126,28 +126,28 @@ const Home = (props) => {
             </header>
             <div className="home-video-row-1">
               <video
-                src="https://cdn.discordapp.com/attachments/1063813912300114011/1217080760297590834/example_6.mp4?ex=6602b9c9&amp;is=65f044c9&amp;hm=9343716ea960af11f4d041de4a6f6f32583a5b8c5640b7f90ee5257c0475e183&amp;"
+                src="/examples/example1.mp4"
                 loop="true"
                 controls="true"
                 playsInline="true"
                 className="home-video"
               ></video>
               <video
-                src="https://cdn.discordapp.com/attachments/1063813912300114011/1216775290081116322/Reelvideo-g489.mp4?ex=66019d4b&amp;is=65ef284b&amp;hm=ffbaa0f2c80d400b80df5a15ae12a39f4a1c927ef5896a400c16d315b638cf6a&amp;"
+                src="/examples/example2.mp4"
                 loop="true"
                 controls="true"
                 playsInline="true"
                 className="home-video1"
               ></video>
               <video
-                src="https://cdn.discordapp.com/attachments/1063813912300114011/1216775290081116322/Reelvideo-g489.mp4?ex=66019d4b&amp;is=65ef284b&amp;hm=ffbaa0f2c80d400b80df5a15ae12a39f4a1c927ef5896a400c16d315b638cf6a&amp;"
+                src="/examples/example3.mp4"
                 loop="true"
                 controls="true"
                 playsInline="true"
                 className="home-video2"
               ></video>
               <video
-                src="https://cdn.discordapp.com/attachments/1063813912300114011/1216775290081116322/Reelvideo-g489.mp4?ex=66019d4b&amp;is=65ef284b&amp;hm=ffbaa0f2c80d400b80df5a15ae12a39f4a1c927ef5896a400c16d315b638cf6a&amp;"
+                src="/examples/example4.mp4"
                 loop="true"
                 controls="true"
                 playsInline="true"
@@ -156,21 +156,21 @@ const Home = (props) => {
             </div>
             <div className="home-container10">
               <video
-                src="https://cdn.discordapp.com/attachments/1063813912300114011/1216775290081116322/Reelvideo-g489.mp4?ex=66019d4b&amp;is=65ef284b&amp;hm=ffbaa0f2c80d400b80df5a15ae12a39f4a1c927ef5896a400c16d315b638cf6a&amp;"
+                src="/examples/example5.mp4"
                 loop="true"
                 controls="true"
                 playsInline="true"
                 className="home-video4"
               ></video>
               <video
-                src="https://cdn.discordapp.com/attachments/1063813912300114011/1216775290081116322/Reelvideo-g489.mp4?ex=66019d4b&amp;is=65ef284b&amp;hm=ffbaa0f2c80d400b80df5a15ae12a39f4a1c927ef5896a400c16d315b638cf6a&amp;"
+                src="/examples/example6.mp4"
                 loop="true"
                 controls="true"
                 playsInline="true"
                 className="home-video5"
               ></video>
               <video
-                src="https://cdn.discordapp.com/attachments/1063813912300114011/1216775290081116322/Reelvideo-g489.mp4?ex=66019d4b&amp;is=65ef284b&amp;hm=ffbaa0f2c80d400b80df5a15ae12a39f4a1c927ef5896a400c16d315b638cf6a&amp;"
+                src="/examples/example4.mp4"
                 loop="true"
                 controls="true"
                 playsInline="true"
@@ -280,12 +280,25 @@ const Home = (props) => {
             margin: var(--dl-space-space-oneandhalfunits);
             display: flex;
             align-self: center;
+            transition: 0.3s;
             align-items: center;
+            border-width: 0px;
             border-radius: 30px;
             flex-direction: row;
             justify-content: center;
             text-decoration: none;
             background-color: var(--dl-color-primary-qcut);
+          }
+          .home-link:hover {
+            color: var(--dl-color-primary-white);
+            border: none;
+            border-color: var(--dl-color-primary-neutralwhite);
+            border-width: 1px;
+            background-color: #dc9054;
+          }
+          .home-link:active {
+            color: var(--dl-color-custom-neutral-dark);
+            background-color: #d27325;
           }
           .home-text02 {
             height: 52px;
@@ -545,7 +558,7 @@ const Home = (props) => {
             justify-content: center;
           }
           .home-video {
-            width: auto;
+            width: 342px;
             height: 100%;
             transition: 0.3s;
             padding-top: 0px;
@@ -556,7 +569,7 @@ const Home = (props) => {
           }
 
           .home-video1 {
-            width: auto;
+            width: 342px;
             height: 100%;
             transition: 0.3s;
             padding-top: 0px;
@@ -567,7 +580,7 @@ const Home = (props) => {
           }
 
           .home-video2 {
-            width: auto;
+            width: 342px;
             height: 100%;
             transition: 0.3s;
             padding-top: 0px;
@@ -578,8 +591,9 @@ const Home = (props) => {
           }
 
           .home-video3 {
-            width: auto;
+            width: 342px;
             height: 100%;
+            display: none;
             transition: 0.3s;
             padding-top: 0px;
             padding-left: 0px;
@@ -601,7 +615,7 @@ const Home = (props) => {
             justify-content: center;
           }
           .home-video4 {
-            width: auto;
+            width: 342px;
             height: 100%;
             transition: 0.3s;
             padding-top: 0px;
@@ -612,7 +626,7 @@ const Home = (props) => {
           }
 
           .home-video5 {
-            width: auto;
+            width: 342px;
             height: 100%;
             transition: 0.3s;
             padding-top: 0px;
@@ -623,7 +637,7 @@ const Home = (props) => {
           }
 
           .home-video6 {
-            width: auto;
+            width: 342px;
             height: 100%;
             transition: 0.3s;
             padding-top: 0px;
@@ -634,8 +648,9 @@ const Home = (props) => {
           }
 
           .home-video7 {
-            width: auto;
+            width: 342px;
             height: 100%;
+            display: none;
             transition: 0.3s;
             padding-top: 0px;
             padding-left: 0px;

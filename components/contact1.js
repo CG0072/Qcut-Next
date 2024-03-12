@@ -12,8 +12,8 @@ const Contact1 = (props) => {
             <br></br>
           </h1>
           <form
-            method="post"
             action="https://api.notionmonkey.io/form/maHNKGLm1D38fmp72Exze5"
+            method="post"
             className="contact1-form"
           >
             <input
