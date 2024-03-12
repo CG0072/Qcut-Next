@@ -19,7 +19,12 @@ const Header = (props) => {
           </Link>
           <div data-thq="thq-navbar-nav" className="header-desktop-menu">
             <nav className="header-links">
-              <a href="#start" className="header-link01">
+              <a
+                href="https://qcut.cg0072.lu/#start"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="header-link01"
+              >
                 <span>Home</span>
                 <br></br>
               </a>

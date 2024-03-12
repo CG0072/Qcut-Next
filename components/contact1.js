@@ -12,32 +12,26 @@ const Contact1 = (props) => {
             <br></br>
           </h1>
           <form
-            action="https://postend.vercel.app/n/gAAAAABl73JWOTslXdZifCmmHiCV8an7bUMulkQmCuTuu6nA0wm9rv2-SmSdalpHmRKq35HNsiMtz8zzgN8JUoCef9hKqoWSPmguxYzYmNjXDgs_3kcIxS1EeL7_0qC1J523TZI8aKSheYxaVscYzO8dbeiAnxBc0NPWQoWvfI0ujBXRRUuPn7GWxGk0NIp29ceBPmGFpbEL"
+            action="https://api.notionmonkey.io/form/maHNKGLm1D38fmp72Exze5"
             method="POST"
-            target="_blank"
             enctype="text/plain"
-            autoComplete="on"
             className="contact1-form"
           >
             <input
               type="text"
               name="name"
-              required="true"
-              placeholder={props.inputPlaceholder}
-              autoComplete="name"
+              placeholder="Name"
               className="contact1-input input"
             />
             <input
               type="email"
               name="e-mail"
-              required="true"
-              placeholder={props.inputPlaceholder1}
-              autoComplete="email"
+              placeholder="E-mail"
               className="contact1-input1 input"
             />
             <textarea
               name="review"
-              placeholder={props.textareaPlaceholder}
+              placeholder="Ask us anything!"
               className="contact1-textarea textarea"
             ></textarea>
             <button type="submit" className="contact1-button button">

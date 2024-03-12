@@ -17,7 +17,7 @@ const NotFound = (props) => {
         </Head>
         <Header rootClassName="header-root-class-name7"></Header>
         <div className="not-found-container1">
-          <h3>OOPS! PAGE NOT FOUND</h3>
+          <h3 className="not-found-text">OOPS! PAGE NOT FOUND</h3>
           <div className="not-found-container2">
             <h1 className="not-found-text1">404</h1>
           </div>
@@ -39,6 +39,7 @@ const NotFound = (props) => {
             align-items: center;
             flex-direction: column;
             justify-content: center;
+            background-color: var(--dl-color-primary-sccent);
           }
           .not-found-container1 {
             display: flex;
@@ -48,6 +49,9 @@ const NotFound = (props) => {
             flex-direction: column;
             justify-content: center;
           }
+          .not-found-text {
+            color: var(--dl-color-primary-neutralwhite);
+          }
           .not-found-container2 {
             display: flex;
             position: relative;
@@ -56,7 +60,7 @@ const NotFound = (props) => {
             justify-content: center;
           }
           .not-found-text1 {
-            color: rgb(38, 38, 38);
+            color: var(--dl-color-primary-neutralwhite);
             font-size: 252px;
             margin-top: -20px;
             font-weight: 900;
@@ -71,6 +75,7 @@ const NotFound = (props) => {
             justify-content: center;
           }
           .not-found-text2 {
+            color: var(--dl-color-primary-neutralwhite);
             text-align: center;
             font-weight: 400;
           }

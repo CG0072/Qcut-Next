@@ -38,10 +38,11 @@ const Home = (props) => {
               <div className="home-container04">
                 <div className="home-div">
                   <lottie-player
-                    src="https://presentation-website-assets.teleporthq.io/features/lottie.json"
+                    src="https://storage.googleapis.com/playground-bucket-v2.teleporthq.io/793f1f5b-d647-482d-bbd4-166d52de47fb/67f6f847-de13-4578-8ead-4e3359cfc4d7"
                     speed="1"
                     autoplay="true"
                     background="transparent"
+                    loop="true"
                   ></lottie-player>
                 </div>
                 <div className="home-separator"></div>
@@ -61,15 +62,16 @@ const Home = (props) => {
               <div className="home-container05">
                 <div className="home-div1">
                   <lottie-player
-                    src="https://presentation-website-assets.teleporthq.io/features/lottie.json"
+                    src="https://storage.googleapis.com/playground-bucket-v2.teleporthq.io/793f1f5b-d647-482d-bbd4-166d52de47fb/4ab25f40-5747-43e2-ac5a-1088bc1ca140"
                     speed="1"
-                    autoplay="true"
                     background="transparent"
+                    loop="true"
+                    autoplay="true"
                   ></lottie-player>
                 </div>
                 <div className="home-separator1"></div>
                 <span className="home-text08">
-                  <span>Custm</span>
+                  <span>Custom</span>
                   <br></br>
                   <span>Style</span>
                   <br></br>
@@ -78,10 +80,11 @@ const Home = (props) => {
               <div className="home-container06">
                 <div className="home-div2">
                   <lottie-player
-                    src="https://presentation-website-assets.teleporthq.io/features/lottie.json"
-                    speed="1"
+                    src="https://storage.googleapis.com/playground-bucket-v2.teleporthq.io/793f1f5b-d647-482d-bbd4-166d52de47fb/f35b2c09-9023-47fa-9ef5-21f555ee8b8c"
+                    speed="0.8"
                     autoplay="true"
                     background="transparent"
+                    loop="true"
                   ></lottie-player>
                 </div>
                 <div className="home-separator2"></div>
@@ -95,10 +98,11 @@ const Home = (props) => {
               <div className="home-container07">
                 <div className="home-div3">
                   <lottie-player
-                    src="https://presentation-website-assets.teleporthq.io/features/lottie.json"
+                    src="https://storage.googleapis.com/playground-bucket-v2.teleporthq.io/793f1f5b-d647-482d-bbd4-166d52de47fb/6c492055-7b46-4bd4-abc9-96f25c17a07e"
                     speed="1"
                     autoplay="true"
                     background="transparent"
+                    loop="true"
                   ></lottie-player>
                 </div>
                 <div className="home-separator3"></div>
@@ -124,7 +128,6 @@ const Home = (props) => {
               <video
                 src="https://cdn.discordapp.com/attachments/1063813912300114011/1217080760297590834/example_6.mp4?ex=6602b9c9&amp;is=65f044c9&amp;hm=9343716ea960af11f4d041de4a6f6f32583a5b8c5640b7f90ee5257c0475e183&amp;"
                 loop="true"
-                poster="/reels/screenshot%202024-03-11%20at%2017.40.47-400h.png"
                 controls="true"
                 playsInline="true"
                 className="home-video"
@@ -132,7 +135,6 @@ const Home = (props) => {
               <video
                 src="https://cdn.discordapp.com/attachments/1063813912300114011/1216775290081116322/Reelvideo-g489.mp4?ex=66019d4b&amp;is=65ef284b&amp;hm=ffbaa0f2c80d400b80df5a15ae12a39f4a1c927ef5896a400c16d315b638cf6a&amp;"
                 loop="true"
-                poster="/reels/screenshot%202024-03-11%20at%2017.40.47-400h.png"
                 controls="true"
                 playsInline="true"
                 className="home-video1"
@@ -140,7 +142,6 @@ const Home = (props) => {
               <video
                 src="https://cdn.discordapp.com/attachments/1063813912300114011/1216775290081116322/Reelvideo-g489.mp4?ex=66019d4b&amp;is=65ef284b&amp;hm=ffbaa0f2c80d400b80df5a15ae12a39f4a1c927ef5896a400c16d315b638cf6a&amp;"
                 loop="true"
-                poster="/reels/screenshot%202024-03-11%20at%2017.40.47-400h.png"
                 controls="true"
                 playsInline="true"
                 className="home-video2"
@@ -148,7 +149,6 @@ const Home = (props) => {
               <video
                 src="https://cdn.discordapp.com/attachments/1063813912300114011/1216775290081116322/Reelvideo-g489.mp4?ex=66019d4b&amp;is=65ef284b&amp;hm=ffbaa0f2c80d400b80df5a15ae12a39f4a1c927ef5896a400c16d315b638cf6a&amp;"
                 loop="true"
-                poster="/reels/screenshot%202024-03-11%20at%2017.40.47-400h.png"
                 controls="true"
                 playsInline="true"
                 className="home-video3"
@@ -158,7 +158,6 @@ const Home = (props) => {
               <video
                 src="https://cdn.discordapp.com/attachments/1063813912300114011/1216775290081116322/Reelvideo-g489.mp4?ex=66019d4b&amp;is=65ef284b&amp;hm=ffbaa0f2c80d400b80df5a15ae12a39f4a1c927ef5896a400c16d315b638cf6a&amp;"
                 loop="true"
-                poster="/reels/screenshot%202024-03-11%20at%2017.40.47-400h.png"
                 controls="true"
                 playsInline="true"
                 className="home-video4"
@@ -166,7 +165,6 @@ const Home = (props) => {
               <video
                 src="https://cdn.discordapp.com/attachments/1063813912300114011/1216775290081116322/Reelvideo-g489.mp4?ex=66019d4b&amp;is=65ef284b&amp;hm=ffbaa0f2c80d400b80df5a15ae12a39f4a1c927ef5896a400c16d315b638cf6a&amp;"
                 loop="true"
-                poster="/reels/screenshot%202024-03-11%20at%2017.40.47-400h.png"
                 controls="true"
                 playsInline="true"
                 className="home-video5"
@@ -174,7 +172,6 @@ const Home = (props) => {
               <video
                 src="https://cdn.discordapp.com/attachments/1063813912300114011/1216775290081116322/Reelvideo-g489.mp4?ex=66019d4b&amp;is=65ef284b&amp;hm=ffbaa0f2c80d400b80df5a15ae12a39f4a1c927ef5896a400c16d315b638cf6a&amp;"
                 loop="true"
-                poster="/reels/screenshot%202024-03-11%20at%2017.40.47-400h.png"
                 controls="true"
                 playsInline="true"
                 className="home-video6"
@@ -182,7 +179,6 @@ const Home = (props) => {
               <video
                 src="https://cdn.discordapp.com/attachments/1063813912300114011/1216775290081116322/Reelvideo-g489.mp4?ex=66019d4b&amp;is=65ef284b&amp;hm=ffbaa0f2c80d400b80df5a15ae12a39f4a1c927ef5896a400c16d315b638cf6a&amp;"
                 loop="true"
-                poster="/reels/screenshot%202024-03-11%20at%2017.40.47-400h.png"
                 controls="true"
                 playsInline="true"
                 className="home-video7"
@@ -292,7 +288,7 @@ const Home = (props) => {
             background-color: var(--dl-color-primary-qcut);
           }
           .home-text02 {
-            height: 50px;
+            height: 52px;
             font-size: 50px;
             font-style: normal;
             font-weight: 700;
@@ -308,7 +304,7 @@ const Home = (props) => {
             padding-top: 0px;
             padding-left: var(--dl-space-space-threeunits);
             border-radius: 25px;
-            margin-bottom: var(--dl-space-space-threeunits);
+            margin-bottom: 0px;
             padding-right: var(--dl-space-space-threeunits);
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
@@ -341,6 +337,7 @@ const Home = (props) => {
           .home-container04 {
             gap: var(--dl-space-space-unit);
             flex: 0 0 auto;
+            width: 320px;
             display: flex;
             padding: var(--dl-space-space-unit);
             align-items: center;
@@ -373,12 +370,15 @@ const Home = (props) => {
           }
           .home-text04 {
             color: var(--dl-color-primary-neutralwhite);
-            font-size: 25px;
+            font-size: 26px;
+            font-style: normal;
             text-align: center;
+            font-weight: 600;
           }
           .home-container05 {
             gap: var(--dl-space-space-unit);
             flex: 0 0 auto;
+            width: 320px;
             display: flex;
             padding: var(--dl-space-space-unit);
             align-items: center;
@@ -411,12 +411,15 @@ const Home = (props) => {
           }
           .home-text08 {
             color: var(--dl-color-primary-neutralwhite);
-            font-size: 25px;
+            font-size: 26px;
+            font-style: normal;
             text-align: center;
+            font-weight: 600;
           }
           .home-container06 {
             gap: var(--dl-space-space-unit);
             flex: 0 0 auto;
+            width: 320px;
             display: flex;
             padding: var(--dl-space-space-unit);
             align-items: center;
@@ -449,12 +452,15 @@ const Home = (props) => {
           }
           .home-text13 {
             color: var(--dl-color-primary-neutralwhite);
-            font-size: 25px;
+            font-size: 26px;
+            font-style: normal;
             text-align: center;
+            font-weight: 600;
           }
           .home-container07 {
             gap: var(--dl-space-space-unit);
             flex: 0 0 auto;
+            width: 320px;
             display: flex;
             padding: var(--dl-space-space-unit);
             align-items: center;
@@ -487,8 +493,10 @@ const Home = (props) => {
           }
           .home-text18 {
             color: var(--dl-color-primary-neutralwhite);
-            font-size: 25px;
+            font-size: 26px;
+            font-style: normal;
             text-align: center;
+            font-weight: 600;
           }
           .home-portfolio {
             flex: 0 0 auto;
@@ -505,8 +513,8 @@ const Home = (props) => {
             opacity: 1;
             align-self: center;
             align-items: center;
-            margin-left: var(--dl-space-space-threeunits);
-            margin-right: var(--dl-space-space-threeunits);
+            margin-left: 0px;
+            margin-right: 0px;
             flex-direction: column;
             justify-content: center;
           }
@@ -516,9 +524,9 @@ const Home = (props) => {
             height: auto;
             display: flex;
             align-self: center;
-            margin-top: var(--dl-space-space-twounits);
+            margin-top: var(--dl-space-space-threeunits);
             align-items: center;
-            margin-bottom: var(--dl-space-space-twounits);
+            margin-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
           .home-text23 {
@@ -530,7 +538,7 @@ const Home = (props) => {
             gap: var(--dl-space-space-threeunits);
             flex: 0 0 auto;
             width: 100%;
-            height: 400px;
+            height: 600px;
             display: flex;
             flex-wrap: wrap;
             align-items: center;
@@ -584,12 +592,12 @@ const Home = (props) => {
             gap: var(--dl-space-space-threeunits);
             flex: 0 0 auto;
             width: 100%;
-            height: 400px;
+            height: 600px;
             display: flex;
             flex-wrap: wrap;
             margin-top: var(--dl-space-space-threeunits);
             align-items: center;
-            margin-bottom: var(--dl-space-space-threeunits);
+            margin-bottom: 0px;
             justify-content: center;
           }
           .home-video4 {
@@ -641,7 +649,9 @@ const Home = (props) => {
             width: auto;
             height: auto;
             display: flex;
+            margin-top: var(--dl-space-space-threeunits);
             align-items: center;
+            margin-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
             background-color: var(--dl-color-primary-sccent);
           }
@@ -683,8 +693,11 @@ const Home = (props) => {
           }
           .home-text31 {
             color: var(--dl-color-primary-neutralwhite);
-            margin: var(--dl-space-space-twounits);
             font-size: 50px;
+            margin-top: 0px;
+            margin-left: var(--dl-space-space-twounits);
+            margin-right: var(--dl-space-space-twounits);
+            margin-bottom: var(--dl-space-space-twounits);
           }
           .home-contact {
             flex: 0 0 auto;
