@@ -95,7 +95,7 @@ const Footer = (props) => {
           }
           .footer-container {
             gap: var(--dl-space-space-unit);
-            display: flex;
+            display: none;
             max-width: var(--dl-size-size-maxwidth);
             align-items: center;
             flex-direction: column;

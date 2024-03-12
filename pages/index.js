@@ -4,7 +4,6 @@ import Head from 'next/head'
 
 import Header from '../components/header'
 import TestimonialCard1 from '../components/testimonial-card1'
-import Contact1 from '../components/contact1'
 import Footer from '../components/footer'
 
 const Home = (props) => {
@@ -126,22 +125,19 @@ const Home = (props) => {
             </header>
             <div className="home-video-row-1">
               <video
-                src="/examples/example1.mp4"
-                loop="true"
+                src="https://lem.codes/users/goech244/2122/kaarli/example6.mp4"
                 controls="true"
                 playsInline="true"
                 className="home-video"
               ></video>
               <video
-                src="/examples/example2.mp4"
-                loop="true"
+                src="https://lem.codes/users/goech244/2122/kaarli/example2.mp4"
                 controls="true"
                 playsInline="true"
                 className="home-video1"
               ></video>
               <video
-                src="/examples/example3.mp4"
-                loop="true"
+                src="https://lem.codes/users/goech244/2122/kaarli/example3.mp4"
                 controls="true"
                 playsInline="true"
                 className="home-video2"
@@ -157,21 +153,19 @@ const Home = (props) => {
             <div className="home-container10">
               <video
                 src="/examples/example5.mp4"
-                loop="true"
                 controls="true"
                 playsInline="true"
+                poster="https://lem.codes/users/goech244/2122/kaarli/example4.mp4"
                 className="home-video4"
               ></video>
               <video
-                src="/examples/example6.mp4"
-                loop="true"
+                src="https://lem.codes/users/goech244/2122/kaarli/example5.mp4"
                 controls="true"
                 playsInline="true"
                 className="home-video5"
               ></video>
               <video
-                src="/examples/example4.mp4"
-                loop="true"
+                src="https://lem.codes/users/goech244/2122/kaarli/example1.mp4"
                 controls="true"
                 playsInline="true"
                 className="home-video6"
@@ -219,7 +213,43 @@ const Home = (props) => {
           </h1>
         </section>
         <section id="contact" className="home-contact">
-          <Contact1 rootClassName="contact1-root-class-name1"></Contact1>
+          <div className="home-container13">
+            <div className="home-container14">
+              <h1 className="home-text34">
+                <span>Contact</span>
+                <br></br>
+              </h1>
+              <form
+                action="https://api.notionmonkey.io/form/maHNKGLm1D38fmp72Exze5"
+                method="post"
+                className="home-form"
+              >
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Name"
+                  className="home-input input"
+                />
+                <input
+                  type="email"
+                  name="e-mail"
+                  placeholder="E-mail"
+                  className="home-input1 input"
+                />
+                <textarea
+                  name="review"
+                  placeholder="Ask us anything!"
+                  className="home-textarea textarea"
+                ></textarea>
+                <button type="submit" className="home-button button">
+                  <span>
+                    <span>Submit</span>
+                    <br></br>
+                  </span>
+                </button>
+              </form>
+            </div>
+          </div>
         </section>
         <Footer rootClassName="footer-root-class-name11"></Footer>
       </figure>
@@ -693,10 +723,11 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-twounits);
           }
           .home-container12 {
+            gap: var(--dl-space-space-twounits);
             width: 100%;
-            display: grid;
-            grid-gap: var(--dl-space-space-twounits);
-            grid-template-columns: 1fr 1fr 1fr;
+            height: 383px;
+            display: flex;
+            align-items: flex-start;
           }
           .home-newsletter {
             flex: 0 0 auto;
@@ -727,8 +758,79 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-primary-sccent);
           }
+          .home-container13 {
+            display: flex;
+            position: relative;
+          }
+          .home-container14 {
+            flex: 0 0 auto;
+            display: flex;
+            align-self: center;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .home-text34 {
+            color: var(--dl-color-primary-neutralwhite);
+            margin: var(--dl-space-space-unit);
+            font-size: 50px;
+          }
+          .home-form {
+            gap: var(--dl-space-space-unit);
+            width: 394px;
+            height: 394px;
+            display: flex;
+            flex-direction: column;
+          }
+          .home-input {
+            width: 100%;
+            align-self: center;
+          }
+          .home-input1 {
+            width: 100%;
+            height: auto;
+            align-self: center;
+          }
+          .home-textarea {
+            width: 100%;
+            height: 100%;
+          }
+          .home-button {
+            display: flex;
+            box-shadow: 5px 5px 10px 0px #d4d4d4;
+            margin-top: 0px;
+            transition: 0.3s;
+            margin-left: var(--dl-space-space-unit);
+            margin-right: var(--dl-space-space-unit);
+            margin-bottom: var(--dl-space-space-unit);
+            flex-direction: row;
+            background-color: var(--dl-color-primary-qcut);
+          }
+          .home-button:hover {
+            background-color: #d09b71;
+          }
+          .home-button:active {
+            color: rgba(0, 0, 0, 0);
+            background-color: #8e4d19;
+          }
+          @media (max-width: 1600px) {
+            .home-container03 {
+              width: 786px;
+              height: 935px;
+              flex-wrap: wrap;
+            }
+          }
           @media (max-width: 1200px) {
+            .home-container03 {
+              width: 776px;
+            }
+            .home-video2 {
+              display: none;
+            }
             .home-video3 {
+              display: none;
+            }
+            .home-video6 {
               display: none;
             }
             .home-video7 {
@@ -737,7 +839,50 @@ const Home = (props) => {
           }
           @media (max-width: 991px) {
             .home-container03 {
+              gap: var(--dl-space-space-twounits);
+              width: 574px;
+              height: 966px;
               flex-direction: column;
+            }
+            .home-container04 {
+              width: 270px;
+            }
+            .home-div {
+              width: 250px;
+              height: 250px;
+            }
+            .home-text04 {
+              font-size: 20px;
+            }
+            .home-container05 {
+              width: 270px;
+            }
+            .home-div1 {
+              width: 250px;
+              height: 250px;
+            }
+            .home-text08 {
+              font-size: 20px;
+            }
+            .home-container06 {
+              width: 270px;
+            }
+            .home-div2 {
+              width: 250px;
+              height: 250px;
+            }
+            .home-text13 {
+              font-size: 20px;
+            }
+            .home-container07 {
+              width: 270px;
+            }
+            .home-div3 {
+              width: 250px;
+              height: 250px;
+            }
+            .home-text18 {
+              font-size: 20px;
             }
             .home-video2 {
               display: none;
@@ -754,11 +899,18 @@ const Home = (props) => {
             .home-text29 {
               text-align: center;
             }
-            .home-container12 {
-              grid-template-columns: 1fr;
-            }
           }
           @media (max-width: 767px) {
+            .home-link {
+              width: 410px;
+              height: 65px;
+            }
+            .home-container02 {
+              height: 100%;
+            }
+            .home-container03 {
+              height: 1748px;
+            }
             .home-separator {
               margin-top: var(--dl-space-space-oneandhalfunits);
               margin-left: 0px;
@@ -781,28 +933,6 @@ const Home = (props) => {
               margin-top: var(--dl-space-space-oneandhalfunits);
               margin-left: 0px;
               margin-right: 0px;
-              margin-bottom: var(--dl-space-space-oneandhalfunits);
-            }
-            .home-container11 {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-          }
-          @media (max-width: 479px) {
-            .home-separator {
-              margin-top: var(--dl-space-space-oneandhalfunits);
-              margin-bottom: var(--dl-space-space-oneandhalfunits);
-            }
-            .home-separator1 {
-              margin-top: var(--dl-space-space-oneandhalfunits);
-              margin-bottom: var(--dl-space-space-oneandhalfunits);
-            }
-            .home-separator2 {
-              margin-top: var(--dl-space-space-oneandhalfunits);
-              margin-bottom: var(--dl-space-space-oneandhalfunits);
-            }
-            .home-separator3 {
-              margin-top: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
             .home-video1 {
@@ -812,10 +942,82 @@ const Home = (props) => {
               display: none;
             }
             .home-container11 {
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
+            }
+          }
+          @media (max-width: 479px) {
+            .home-start {
+              width: 100%;
+            }
+            .home-container01 {
+              width: 100%;
+            }
+            .home-text01 {
+              text-align: center;
+            }
+            .home-link {
+              width: 289px;
+              height: 64px;
+            }
+            .home-text02 {
+              height: 32px;
+              font-size: 30px;
+              font-style: normal;
+              font-weight: 700;
+            }
+            .home-services {
+              width: 100%;
+            }
+            .home-container02 {
+              width: 320px;
+            }
+            .home-container03 {
+              width: 100%;
+              height: 1802px;
+            }
+            .home-separator {
+              margin-top: var(--dl-space-space-oneandhalfunits);
+              margin-bottom: var(--dl-space-space-oneandhalfunits);
+            }
+            .home-separator1 {
+              margin-top: var(--dl-space-space-oneandhalfunits);
+              margin-bottom: var(--dl-space-space-oneandhalfunits);
+            }
+            .home-separator2 {
+              margin-top: var(--dl-space-space-oneandhalfunits);
+              margin-bottom: var(--dl-space-space-oneandhalfunits);
+            }
+            .home-separator3 {
+              margin-top: var(--dl-space-space-oneandhalfunits);
+              margin-bottom: var(--dl-space-space-oneandhalfunits);
+            }
+            .home-video {
+              width: 300px;
+            }
+            .home-video1 {
+              display: none;
+            }
+            .home-video4 {
+              width: 300px;
+            }
+            .home-video5 {
+              display: none;
+            }
+            .home-container11 {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
+            }
+            .home-newsletter {
+              width: 100%;
+            }
+            .home-contact {
+              width: 100%;
+            }
+            .home-form {
+              width: 292px;
             }
           }
         `}

@@ -295,10 +295,6 @@ const Header = (props) => {
             width: 100%;
             align-self: center;
           }
-          .header-root-class-name9 {
-            width: 100%;
-            align-self: center;
-          }
           .header-root-class-name10 {
             width: 100%;
             align-self: center;
