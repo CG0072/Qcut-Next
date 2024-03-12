@@ -12,9 +12,8 @@ const Contact1 = (props) => {
             <br></br>
           </h1>
           <form
+            method="post"
             action="https://api.notionmonkey.io/form/maHNKGLm1D38fmp72Exze5"
-            method="POST"
-            enctype="application/x-www-form-urlencoded"
             className="contact1-form"
           >
             <input
@@ -64,12 +63,10 @@ const Contact1 = (props) => {
           }
           .contact1-form {
             gap: var(--dl-space-space-unit);
-            width: 600px;
-            height: 500px;
+            width: 394px;
+            height: 394px;
             display: flex;
-            align-items: center;
             flex-direction: column;
-            justify-content: center;
           }
           .contact1-input {
             width: 100%;
@@ -104,12 +101,6 @@ const Contact1 = (props) => {
           }
           .contact1-root-class-name {
             height: 350px;
-          }
-
-          @media (max-width: 479px) {
-            .contact1-form {
-              width: 400px;
-            }
           }
         `}
       </style>
