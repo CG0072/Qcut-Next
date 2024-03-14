@@ -2,6 +2,8 @@ import React, { useEffect } from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 
+import Script from 'dangerous-html/react'
+
 import Header from '../components/header'
 import TestimonialCard1 from '../components/testimonial-card1'
 import Footer from '../components/footer'
@@ -153,9 +155,9 @@ const Home = (props) => {
             <div className="home-container10">
               <video
                 src="/examples/example5.mp4"
+                poster="https://lem.codes/users/goech244/2122/kaarli/example4.mp4"
                 controls="true"
                 playsInline="true"
-                poster="https://lem.codes/users/goech244/2122/kaarli/example4.mp4"
                 className="home-video4"
               ></video>
               <video
@@ -206,10 +208,22 @@ const Home = (props) => {
             <span>Newsletter</span>
             <br></br>
           </h1>
+          <div>
+            <div className="home-container14">
+              <React.Fragment>
+                <Script
+                  async={true}
+                  data-uid="4874d72fcc"
+                  src="https://qcut.ck.page/4874d72fcc/index.js"
+                />
+              </React.Fragment>
+            </div>
+          </div>
+          <div className="home-container15"></div>
         </section>
         <section id="contact" className="home-contact">
-          <div className="home-container13">
-            <div className="home-container14">
+          <div className="home-container16">
+            <div className="home-container17">
               <h1 className="home-text34">
                 <span>Contact</span>
                 <br></br>
@@ -730,6 +744,7 @@ const Home = (props) => {
             height: auto;
             display: flex;
             align-items: center;
+            flex-direction: column;
             justify-content: center;
           }
           .home-text31 {
@@ -739,6 +754,17 @@ const Home = (props) => {
             margin-left: var(--dl-space-space-twounits);
             margin-right: var(--dl-space-space-twounits);
             margin-bottom: var(--dl-space-space-twounits);
+          }
+          .home-container14 {
+            display: contents;
+          }
+          .home-container15 {
+            flex: 0 0 auto;
+            width: 100%;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
+            height: 100px;
+            display: flex;
+            align-items: flex-start;
           }
           .home-contact {
             flex: 0 0 auto;
@@ -753,11 +779,11 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-primary-sccent);
           }
-          .home-container13 {
+          .home-container16 {
             display: flex;
             position: relative;
           }
-          .home-container14 {
+          .home-container17 {
             flex: 0 0 auto;
             display: flex;
             align-self: center;

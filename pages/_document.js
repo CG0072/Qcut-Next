@@ -281,7 +281,7 @@ class CustomDocument extends Document {
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                "</noscript><script src='https://unpkg.com/@teleporthq/teleport-custom-scripts'></script><noscript>",
+                '</noscript><script src=\'https://unpkg.com/@teleporthq/teleport-custom-scripts\'></script>\n<script async data-uid="4874d72fcc" src="https://qcut.ck.page/4874d72fcc/index.js"></script><noscript>',
             }}
           ></noscript>
         </Head>
